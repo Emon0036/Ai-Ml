@@ -17,5 +17,5 @@ print(occur)
 
 totaloccourences = tuple.count(6)
 
-print(totaloccourences)
+print(totaloccourences) 
 
