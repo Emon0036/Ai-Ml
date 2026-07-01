@@ -2,7 +2,7 @@
 #------------------------------------
 
 
-info ={
+info = {
     "name":"Emon Rahman",
     "sub" : ["DSA" , "DBMS" , "Ai"],
     "score" : ["Ct1-20" , "Ct2-19","Ct3-18"],
@@ -36,6 +36,8 @@ print(info.get("name"))
 info.update({"gender" : "Male"})
 
 print(info.items())
+
+print(info.get("sub"))
 
 
 
