@@ -1,9 +1,9 @@
 class student:
-    subject = "Python"
+    subject = "Python" # Class_Attribute 
 
     def __init__(self,name , cgpa , subject):
         self.name = name
-        self.cgpa = cgpa
+        self.cgpa = cgpa  # instance_Attribute 
         self.subject = subject
         
 # there are 2 same name attribute but priority goes to the instance attribute

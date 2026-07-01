@@ -3,7 +3,7 @@ class student:
     #     print("I am self method")
 
 # atuomatic method
-# self store every information of the object
+# self -> store every information of the object
 
     def __init__(self,name,cgpa):
         self.name = name
